@@ -1,0 +1,395 @@
+
+body {
+    background-color: #FFFFFF;
+    color: #434455;
+    font-family: 'Roboto', 'Raleway', sans-serif;
+}
+:root {
+    --first-title-color: #FFFFFF;
+  --title-color: #2E2F42 ;
+ --text-color: #434455;
+ --focus-hover-color: #4D5AE5 ;
+ --btn-background-color : #4D5AE5 ;
+ --btn-background-focus-color:#404BBF;
+ --lh-title:1.2;
+ --lh-header-text:1.5;
+
+}
+.logo {
+    font-family: 'Raleway';
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 0.66;
+    /* identical to box height, or 150% */
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 0.02em;
+    
+    color: #000000;
+}
+.logo:hover,
+.logo:focus {
+    color: var(--focus-hover-color,#4D5AE5);
+}
+
+ ul, ol {
+    padding-left: 0;
+    margin: 0;
+    list-style: none;
+ }
+ .link:hover,
+  .link:focus {
+    color: var(--focus-hover-color);
+
+ }
+ a {
+text-decoration: none;
+
+ }
+ h1,h2,h3,h4{
+    margin: 0;
+ }
+
+ /*------------------ HEADER --------------------*/
+
+
+ .header {
+    
+}
+.header-logo{
+
+    color: var(--title-color,#2E2F42);
+}
+.header-nav {
+}
+.header-list {
+}
+.heared-item {
+}
+.header-link {
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: var(--lh-header-text);
+/* identical to box height, or 150% */
+letter-spacing: 0.02em;
+/* NAVY BLUE */
+color: var(--title-color,#2E2F42);
+}
+
+
+.header-contacts{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: var(--lh-header-text);
+/* identical to box height, or 150% */
+letter-spacing: 0.02em;
+/* SLATE */
+color: var(--text-color,#434455);
+}
+
+
+
+/*------------------ HERO --------------------*/
+
+.hero {
+    background-color: #2E2F42;
+}
+.hero-title {
+    /* Header 1 */
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 56px;
+line-height: 1.07;
+/* or 107% */
+
+text-align: center;
+letter-spacing: 0.02em;
+
+color: #FFFFFF;
+}
+.hero-button {
+    background-color:var(--btn-background-color);
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+/* identical to box height, or 150% */
+
+display: flex;
+align-items: center;
+letter-spacing: 0.04em;
+
+color: #FFFFFF;
+}
+.hero-button:focus{
+ background-color: var(--btn-background-focus-color); 
+}
+
+/*------------------ FUTURES --------------------*/
+
+.futures {
+
+background-color: var(--first-title-color);
+}
+.futures-item {
+}
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+
+}
+.futures-caption {
+    /* Header 3 */
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 0.83;
+/* identical to box height, or 120% */
+
+letter-spacing: 0.02em;
+
+/* NAVY BLUE */
+
+color: #2E2F42;
+}
+
+.futures-title {
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 0.66;
+/* or 150% */
+
+letter-spacing: 0.02em;
+
+/* SLATE */
+
+color: #434455;
+}
+
+/*------------------ SLIDES --------------------*/
+
+.slides {
+    background-color: var(--first-title-color);
+}
+.slides-caption {
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 36px;
+line-height: 0.9;
+/* identical to box height, or 111% */
+
+text-align: center;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+
+color: #2E2F42;
+}
+.slides-list {
+}
+.slides-item {
+}
+
+/*------------------ TEAM --------------------*/
+
+.team {
+    background-color: #F4F4FD;
+}
+.our-team {
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 36px;
+line-height: 0.9;
+/* identical to box height, or 111% */
+
+text-align: center;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+
+color: #2E2F42;
+
+}
+.team-list {
+}
+.team-item {
+}
+.team-caption {
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 0.83;
+/* identical to box height, or 120% */
+
+text-align: center;
+letter-spacing: 0.02em;
+
+/* NAVY BLUE */
+
+color: #2E2F42;
+
+}
+.team-title {
+    /* Body */
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 0.66;
+/* identical to box height, or 150% */
+
+text-align: center;
+letter-spacing: 0.02em;
+
+/* SLATE */
+
+color: #434455;
+}
+
+/*------------------ PORTFOLIO --------------------*/
+
+.portfolio-title {
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: var(--lh-title);
+/* identical to box height, or 120% */
+letter-spacing: 0.02em;
+/* NAVY BLUE */
+color: var(--title-color,#2E2F42);
+}
+
+.portfolio-text {
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: var(--lh-header-text);
+/* identical to box height, or 150% */
+letter-spacing: 0.02em;
+/* SLATE */
+color: var(--text-color,#434455);
+}
+
+/*------------------ PORTFOLIO - HERO --------------------*/
+.hero-focus:focus,
+.hero-focus:hover {
+    background-color: #404BBF;
+    color: #FFFFFF;
+}
+
+.portfolio-hero {
+}
+.portfolio-hero-btn {
+    box-sizing: border-box;
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 24px;
+    width: 126px;
+    height: 48px;
+    /* CLOUD */
+    background: #F4F4FD;
+    /* CORNFLOWER */
+    border: 1px solid #E7E9FC;
+    border-radius: 4px;
+    /* Inside auto layout */
+    flex: none;
+    order: 4;
+    flex-grow: 0;
+color: #4D5AE5;
+}
+.portfolio-hero-btn:hover,
+.portfolio-hero-btn:focus{
+color: var(--first-title-color);
+background-color: var(--btn-background-focus-color)
+}
+
+/*------------------ APP --------------------*/
+.app{
+  }
+.app-list {
+}
+.app-item
+.app-title {
+}
+
+.app-text {
+}
+
+
+
+/*------------------ Marketing --------------------*/
+.marketing{
+   ;
+}
+.marketing-list {
+}
+.marketing-item {
+}
+.marketing-title {
+}
+
+.marketing-text {
+}
+
+
+/*------------------ DESIGN --------------------*/
+.design {
+    ;
+}
+.design-list {
+}
+.design-item {
+}
+.design-title {
+}
+
+.design-text {
+}
+
+
+/*------------------ FOOTER --------------------*/
+.footer{
+    background-color: #2E2F42;
+}
+.footer-link { 
+    color: var(--first-title-color) ;
+}
+
+.footer-text {
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: var(--lh-header-text);
+/* or 150% */
+letter-spacing: 0.02em;
+/* CORNFLOWER */
+color: #E7E9FC;
+
+}
