@@ -119,22 +119,20 @@ letter-spacing: 0.02em;
 color: #FFFFFF;
 }
 .hero-button {
-    background-color:var(--btn-background-color);
+    background: var(--btn-background-color);
     font-family: 'Roboto';
-font-style: normal;
 font-weight: 500;
 font-size: 16px;
 line-height:var(--lh-header-text);
 /* identical to box height, or 150% */
-
-display: flex;
-align-items: center;
 letter-spacing: 0.04em;
-
 color: #FFFFFF;
+text-align: center;
+border-radius: 4px;
 }
+.hero-button:hover,
 .hero-button:focus{
- background-color: var(--btn-background-focus-color); 
+    background-color: var(--btn-background-focus-color);
 }
 
 /*------------------ FUTURES --------------------*/
